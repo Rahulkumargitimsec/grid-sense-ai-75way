@@ -1,0 +1,15 @@
+node_modules/
+.next/
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.local
+coverage/
+
+# Data collector logs
+backend/logs/
+
+# Trained models are rebuilt from the database (python -m app.services.demand_model train)
+backend/app/data/models/
+backend/gridsense.db
